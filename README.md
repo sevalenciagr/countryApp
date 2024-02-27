@@ -1,27 +1,35 @@
 # CountryApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.0.
+Este es un proyecto de búsqueda de países en Angular. Se pueden realizar búsquedas por capital, país y por región. Al obtener todos los resultados de búsqueda se puede ver a detalle cada país. 
+Esta ampliación tiene los fundamentos de una SPA.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Demostración
 
-## Build
+Puedes acceder a una versión desplegada de la aplicación [aquí](https://country-app-svg.vercel.app/).
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Funcionalidades
 
-## Running unit tests
+- Buscar países por capital.
+- Buscar países por región.
+- Buscar países por país especifico.
+- Ver información de los países, en tabla o detalladamente.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Conocimientos aplicados 
+-	Rutas
+-	RouterLink y RouterLinkActive
+-	Componentes especializados
+-	DebounceTime
+-	Inputs
+-	SwitchMaps
+-	Consumo de APIs
+-	Tipado de datos
 
-## Running end-to-end tests
+Sigue estos pasos para ejecutar la aplicación en tu entorno local:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. Clona el repositorio: `git clone https://github.com/sevalenciagr/countryApp.git`
+2. Navega al directorio del proyecto: `cd countryApp`
+3. Instala las dependencias: `npm install`
+4. Inicia el servidor local: `npm start`
