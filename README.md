@@ -3,7 +3,7 @@
 Este es un proyecto de búsqueda de países en Angular. Se pueden realizar búsquedas por capital, país y por región. Al obtener todos los resultados de búsqueda se puede ver a detalle cada país. 
 Esta ampliación tiene los fundamentos de una SPA.
 
-
+![countryApp](https://github.com/sevalenciagr/countryApp/assets/88304046/5b938e6e-b05d-4cd4-9e6f-e9af7dd91163)
 
 
 ## Demostración
