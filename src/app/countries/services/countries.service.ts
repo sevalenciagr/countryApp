@@ -22,6 +22,7 @@ export class CountriesService {
   searchCountryByAlphaCode(code: string): Observable<Country | null> {
 
     const url = `${this.apiUrl}/alpha/${code}`
+
     return this.http.get<Country[]>(url)
       .pipe(
         map(countries => countries.length > 0 ? countries[0]: null ),
